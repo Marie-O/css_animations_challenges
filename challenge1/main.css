@@ -3,4 +3,11 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  position: relative;
+  animation: jump .5s alternate infinite linear;
+}
+
+@keyframes jump {
+  from {top: 0px;}
+  to {top: 300px;}
 }
